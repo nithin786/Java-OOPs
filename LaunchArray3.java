@@ -11,7 +11,7 @@ public class LaunchArray3 {
         Scanner scan = new Scanner(System.in);
         for(int i =0; i<marks.length; i++){
             for(int j=0;j<marks[i].length;j++){
-                System.out.println("Enter marks of class " + i + " Student " + j);
+                System.out.println("Enter marks of class " + i + " Student " + j);//prints number of classes and students
                 marks[i][j] = scan.nextInt();
             }
         }
